@@ -15,6 +15,7 @@ download video on 91porn with aria2
 docker run -d --name 91porn \
 -p 80:80 -p 6800:6800 -p 8080:8080 \
 -v [YOUR DIRECTORY]:/root/91porn/videos \
+-e 127.0.0.1:1087 \
 zzjzz9266a/91porn-crawler
 ````
 
